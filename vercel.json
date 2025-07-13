@@ -7,9 +7,5 @@
     "app/api/**/*.ts": {
       "maxDuration": 30
     }
-  },
-  "env": {
-    "NEXTAUTH_URL": "$NEXTAUTH_URL",
-    "DATABASE_URL": "$DATABASE_URL"
   }
 }
