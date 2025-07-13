@@ -1185,18 +1185,6 @@ const AppointmentOptimizer: React.FC = () => {
             <p className="text-gray-600 text-lg">
               Intelligent appointment scheduling and route optimization
             </p>
-            <div className="mt-2 text-sm space-x-4">
-              {googleMapsLoaded ? (
-                <span className="text-green-600">✅ Google Maps API Connected</span>
-              ) : (
-                <span className="text-orange-600">🔄 Loading Maps API...</span>
-              )}
-              <span className="text-blue-600">🗄️ Neon PostgreSQL Connected</span>
-              <span className="text-purple-600">🚗 Driving Routes Enabled</span>
-              {startingLocation.isSet && (
-                <span className="text-purple-600">📍 Starting location set</span>
-              )}
-            </div>
           </div>
 
           <UserMenu user={session!.user} />
