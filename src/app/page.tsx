@@ -1746,7 +1746,10 @@ const AppointmentOptimizer: React.FC = () => {
                       <option value="follow-up">Follow-up</option>
                       <option value="installation">Installation</option>
                       <option value="maintenance">Maintenance</option>
-                      <option value="demo">Demo</option>
+                      <option value="walk">Walk</option>
+                      <option value="grooming">Grooming</option>
+                      <option value="fluids">Fluids</option>
+                      <option value="drop-in">Drop-in</option>
                     </select>
                   </div>
 
